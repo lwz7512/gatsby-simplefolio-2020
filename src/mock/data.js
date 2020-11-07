@@ -28,30 +28,43 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'reflexstudio-md.png',
+    title: 'Reflex Studio v1.0',
+    info: 'A Reflex theme based Gatsby site generator. Tech stack: ReactJS|Express.js|Nodejs and Shell scripts, no database dependency.',
+    info2: 'Reflex(https://reflexjs.org/) is awesome, I really like it cause it includes rich and elegant building blocks like themes/plugins/components to kickstart Gatsby website. By introcduction of MDX/Block system, it greatly lower the threshold to develop gatsby website and reduce the time to compose a purpose specific web pages. My goals in this studio is to provide a more intuitive UI tool that facilitates the usage and the creation of Reflex themes further. ',
+    url: 'http://reflexstudio.app',
+    repo: 'https://github.com/lwz7512/reflex-studio', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
+    img: 'smartscalereader-md.png',
+    title: 'Smart Scale Reader',
     info: '',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
+    img: 'marinethinking_all.png',
+    title: 'Marine Thinking Official Website',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://www.marinethinking.com/',
+  },
+  {
+    id: nanoid(),
+    img: 'workxtation.png',
+    title: 'Fishery Factory Workstation App',
+    info: 'The first generation of inventory management application adopted in the Atlantic Area fishery indurstry.',
+    info2: 'Tech stack: ReactJS & Material-UI/Golang & gin/MongoDB',
+  },
+  {
+    id: nanoid(),
+    img: 'ue-mobile-screens-github.png',
+    title: 'UltronEle',
+    info: 'Ultronele elearning system purely based on GatsbyJS framework',
+    info2: 'for more details click link below',
+    url: 'http://ultronele.com/',
   },
 ];
 
