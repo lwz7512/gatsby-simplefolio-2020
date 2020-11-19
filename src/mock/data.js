@@ -56,7 +56,7 @@ export const projectsData = [
     img: 'workxtation.png',
     title: 'Fishery Factory Workstation App',
     info: 'The first generation of inventory management application adopted in the Atlantic Area fishery indurstry.',
-    info2: 'Tech stack: ReactJS & Material-UI/Golang & gin/MongoDB',
+    info2: 'Tech stack: ReactJS & Material-UI/Cordova/Golang & gin/MongoDB',
   },
   {
     id: nanoid(),
@@ -97,7 +97,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'github',
-      url: 'https://github.com/lwz7512',
+      url: 'https://github.com/lwz7512/gatsby-simplefolio-2020',
     },
   ],
 };
