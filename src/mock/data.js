@@ -28,10 +28,19 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'GODOT_ACADEMY_POSTER_md.png',
+    title: 'Godot Academy',
+    info: 'Python/Love2d/Godot online training website. Tech stack: ReactJS|Reflex.js|Gatsbyjs',
+    info2: 'Another Reflexjs(https://reflexjs.org/) based website combined some of its theme packages with some of customization works including theme.js and reactjs components',
+    url: 'http://godot.academy/',
+    repo: 'https://github.com/lwz7512/godot-academy', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'reflexstudio-md.png',
     title: 'Reflex Studio v1.0',
     info: 'A Reflex theme based Gatsby site generator. Tech stack: ReactJS|Express.js|Nodejs and Shell scripts, no database dependency.',
-    info2: 'Reflex(https://reflexjs.org/) is awesome, I really like it cause it includes rich and elegant building blocks like themes/plugins/components to kickstart Gatsby website. By introcduction of MDX/Block system, it greatly lower the threshold to develop gatsby website and reduce the time to compose a purpose specific web pages. My goals in this studio is to provide a more intuitive UI tool that facilitates the usage and the creation of Reflex themes further. ',
+    info2: 'Reflexjs(https://reflexjs.org/) is awesome, I really like it cause it includes rich and elegant building blocks like themes/plugins/components to kickstart Gatsby website. By introcduction of MDX/Block system, it greatly lower the threshold to develop gatsby website and reduce the time to compose a purpose specific web pages. My goals in this studio is to provide a more intuitive UI tool that facilitates the usage and the creation of Reflex themes further. ',
     url: 'http://reflexstudio.app',
     repo: 'https://github.com/lwz7512/reflex-studio', // if no repo, the button will not show up
   },
