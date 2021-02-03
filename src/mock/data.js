@@ -73,7 +73,7 @@ export const projectsData = [
     title: 'UltronEle',
     info: 'Ultronele elearning system purely based on GatsbyJS framework',
     info2: 'for more details click link below',
-    url: 'http://ultronele.com/',
+    url: 'https://runbytech.github.io/ueofcweb/',
     repo: 'https://github.com/runbytech/ultron-ele'
   },
 ];
