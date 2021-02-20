@@ -62,6 +62,13 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'mtems.png',
+    title: 'Fishery Environment Monitor App',
+    info: 'Grafana based hybrid mobile web app which combined native implementation of Android(Kotlin) and IOS(Swift) Webview Shell with html page through user integration.',
+    info2: 'Tech stack: Javascript bridge/Kotlin/Swift/Golang/Firebase Cloud Messaging',
+  },
+  {
+    id: nanoid(),
     img: 'workxtation.png',
     title: 'Fishery Factory Workstation App',
     info: 'The first generation of inventory management application adopted in the Atlantic Area fishery indurstry.',
