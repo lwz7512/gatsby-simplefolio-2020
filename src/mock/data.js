@@ -28,6 +28,14 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'ivory_mob_all6.png',
+    title: 'Ivory Blog',
+    info: 'An elegant blog made with Next.js and iversoft API in 4 days',
+    url: 'https://next-ivory-blog.vercel.app',
+    repo: 'https://github.com/lwz7512/next-ivory-blog', 
+  },
+  {
+    id: nanoid(),
     img: 'GODOT_ACADEMY_POSTER_md.png',
     title: 'Godot Academy',
     info: 'Python/Love2d/Godot online training website. Tech stack: ReactJS|Reflex.js|Gatsbyjs',
